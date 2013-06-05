@@ -1,0 +1,36 @@
+{
+	"name": "subcheckbox-dropdown",
+	"title": "jQuery Sub-Checkbox Dropdowns",
+	"description": "jQuery checkbox categories that dropdown subcategory checkboxes",
+	"keywords": [
+		"checkbox",
+		"dropdown",
+		"subcheckbox",
+		"categories",
+		"subcategories"
+	],
+	"version": "1.0.0",
+	"author": {
+		"name": "Dr Sean Thompson",
+		"url": "http://www.nostin.com"
+	},
+	"maintainers": [
+		{
+			"name": "Dr Sean Thompson",
+			"url": "http://www.nostin.com"
+		}
+	],
+	"licenses": [
+		{
+		"type": "MIT",
+		"url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+		}
+	],
+	"bugs": "https://github.com/jquery/jquery-color/issues",
+	"homepage": "https://github.com/jquery/jquery-color",
+	"docs": "https://github.com/jquery/jquery-color",
+	"download": "http://code.jquery.com/#color",
+	"dependencies": {
+		"jquery": ">=1.8"
+	}
+}

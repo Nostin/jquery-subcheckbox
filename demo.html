@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Menu sliders</title>
+	<script src="jquery-1.8.3.js"></script>
+	<script src="jquery.checkbox-category-dropdown.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('ul.super-category-dropdown').checkbox_category_dropdown();			
+		});
+	</script>
+	<style>
+	ul.super-category-dropdown li.ccd-main-item {
+		float:left;
+		width:200px;
+		list-style-type:none;
+	}
+	p{
+		margin:0;
+	}
+	ul.super-category-dropdown ul {
+		list-style-type:none;
+	}
+	
+	ul.ccd-sub-list {
+		position:absolute;
+		border: 1px solid #ff7600;
+		background-color:#ffffd6;
+		border-radius: 5px;
+		padding:6px;
+		margin-left:15px;
+	}
+	
+	ul.ccd-sub-list li {
+		margin:0;
+	}
+	
+	
+	
+	ul.ccd-sub-list-values {
+		padding:0;
+		margin-left:20px;
+	}
+	
+	ul.ccd-sub-list-values li {
+		display:inline-block;
+	}
+	
+	ul.ccd-sub-list-values li p {
+		margin-right:5px;
+	}
+	ul.ccd-sub-list-values li:last-child p:after {
+		content: '';
+	}
+	ul.ccd-sub-list-values li p:after {
+		content: ",";
+	}
+	</style>
+</head>
+<body>
+
+<h1>Show me all the animals from:</h1>
+<ul class="super-category-dropdown">
+	<div style="width:500px; clear:both; height:50px; margin-top:10px;">
+	<li>
+		<input type="checkbox" name="maincheck1" id="maincheck1" />
+		<label for="maincheck1">Marsupial</label>
+		<ul>
+			<li>
+				<input type="checkbox" name="main1subcheckAll" id="main1subcheckAll" class="select-all" />
+				<label for="main1subcheckAll">All</label>
+			</li>
+			<li>
+				<input type="checkbox" name="main1subcheck1" id="main1subcheck1" />
+				<label for="main1subcheck1">Koala</label>
+			</li>
+			<li>
+				<input type="checkbox" name="main1subcheck2" id="main1subcheck2" />
+				<label for="main1subcheck2">Possum</label>
+			</li>
+			<li>
+				<input type="checkbox" name="main1subcheck3" id="main1subcheck3" />
+				<label for="main1subcheck3">Kangaroo</label>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<input type="checkbox" name="maincheck2" id="maincheck2" />
+		<label for="maincheck2">Rodent</label>
+		<ul>
+			<li>
+				<input type="checkbox" name="main2subcheckAll" id="main2subcheckAll" class="select-all" />
+				<label for="main2subcheckAll">All</label>
+			</li>
+			<li>
+				<input type="checkbox" name="main2subcheck1" id="main2subcheck1" />
+				<label for="main2subcheck1">Squirrel</label>
+			</li>
+			<li>
+				<input type="checkbox" name="main2subcheck2" id="main2subcheck2" />
+				<label for="main2subcheck2">Mouse</label>
+			</li>
+		</ul>
+	</li>
+	</div>
+	<div style="width:500px; clear:both; height:50px; margin-top:10px;">
+	<li>
+		<input type="checkbox" name="maincheck3" id="maincheck3" />
+		<label for="maincheck1">Marine</label>
+		<ul>
+			<li>
+				<input type="checkbox" name="main3subcheck1" id="main3subcheck1" />
+				<label for="main3subcheck1">Flounder</label>
+			</li>
+			<li>
+				<input type="checkbox" name="main3subcheck2" id="main3subcheck2" />
+				<label for="main3subcheck2">Shark</label>
+			</li>
+			<li>
+				<input type="checkbox" name="main3subcheck3" id="main3subcheck3" />
+				<label for="main3subcheck3">Dolphin</label>
+			</li>
+		</ul>
+	</li>
+	</div>
+</ul>
+</body>
+</html>

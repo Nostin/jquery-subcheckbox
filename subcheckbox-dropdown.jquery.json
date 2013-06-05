@@ -26,10 +26,8 @@
 		"url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
 		}
 	],
-	"bugs": "https://github.com/jquery/jquery-color/issues",
-	"homepage": "https://github.com/jquery/jquery-color",
-	"docs": "https://github.com/jquery/jquery-color",
-	"download": "http://code.jquery.com/#color",
+	"homepage": "https://github.com/Nostin/jquery-subcheckbox",
+	"download": "https://github.com/Nostin/jquery-subcheckbox/archive/master.zip",
 	"dependencies": {
 		"jquery": ">=1.8"
 	}

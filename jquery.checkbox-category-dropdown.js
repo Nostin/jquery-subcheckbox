@@ -35,6 +35,11 @@
             $(this).parents('ul.ccd-sub-list').find('li input.'+settings.selectAll).prop('checked', false);
          }
       }
+
+      //if all the subcheckboxes are unchecked, uncheck the main one
+      if($(this).parents('ul.ccd-sub-list').find('li input:checked').length == 0) {
+		$(this).parents('li.ccd-main-item').find('div.ccd-main-list-item-wrap input').prop('checked', false);
+	  }
    });
 						
    $('li.ccd-main-item .ccd-main-list-item-wrap input', selector).change(function() {
